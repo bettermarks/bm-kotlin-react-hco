@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from "./App";
 
 ReactDOM.render(
     <React.StrictMode>
-        <h1>Equation validator</h1>
-        <p>Is <span className='equation'>1 + 2 = 3</span> valid?</p>
+        <App/>
     </React.StrictMode>,
     document.getElementById('root')
 );
