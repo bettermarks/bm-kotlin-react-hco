@@ -6,5 +6,3 @@ import kotlin.js.JsName
 fun removeWhiteSpace(equationString: String): String {
     return equationString.filter { !it.isWhitespace() }
 }
-
-
